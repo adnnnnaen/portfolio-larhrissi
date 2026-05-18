@@ -5,7 +5,7 @@ export const profile: Profile = {
   title: "Ingénieur systèmes embarqués",
   tagline: "Firmware, RTOS, Linux embarqué — j'aime comprendre la machine, du transistor à l'OS.",
   location: "Valence, France",
-  email: "larhrissimohamedadnane@gmail.com",
+  email: "adnanemohamedlarhrissi@gmail.com",
   phone: "+33 7 58 55 08 10",
   github: "adnnnnaen",
   githubUrl: "https://github.com/adnnnnaen",
