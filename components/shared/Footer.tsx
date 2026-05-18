@@ -8,14 +8,9 @@ export function Footer() {
   return (
     <footer className="border-t border-border/60 mt-32">
       <div className="container py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-        <div className="space-y-1">
-          <p className="font-mono text-xs text-muted-foreground">
-            © {year} — {profile.name}
-          </p>
-          <p className="font-mono text-[11px] text-muted-foreground/70">
-            Construit avec Next.js, Tailwind &amp; Framer Motion · Déployé sur Vercel
-          </p>
-        </div>
+        <p className="font-mono text-xs text-muted-foreground">
+          © {year} — {profile.name}
+        </p>
 
         <div className="flex items-center gap-1">
           <Link
